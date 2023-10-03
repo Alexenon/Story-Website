@@ -1,0 +1,23 @@
+body {
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+}
+
+.page-content {
+    margin: 20px 30px;
+}
+
+.story-container {
+    display: flex;
+}
+
+.story-img {
+    height: 300px;
+    width: 300px;
+}
+
+.story-description {
+    max-width: 50%;
+    margin: 0 20px;
+}
