@@ -1,7 +1,11 @@
+@import "table.css";
+
 body {
     height: 100vh;
-    width: 100%;
+    width: 100wh;
     margin: 0;
+    font-family: 'Nunito', sans-serif;
+    color: #384047;
 }
 
 .page-content {
@@ -21,3 +25,10 @@ body {
     max-width: 50%;
     margin: 0 20px;
 }
+
+/* .details-table {
+	display: block;
+	margin: 0;
+} */
+
+  
