@@ -5,8 +5,9 @@ table {
 
 caption {
 	font-size: 1.6em;
-	font-weight: 400;
-	padding: 10px 0;
+	font-weight: bold;
+	padding-top: 0.40em;
+	padding-bottom: 0.45em;
 }
 
 thead th {

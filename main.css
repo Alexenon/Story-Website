@@ -9,11 +9,27 @@ body {
 }
 
 .page-content {
-    margin: 20px 30px;
+    padding: 20px 30px;
 }
 
-.story-container {
+.story-description {
+    max-width: 50%;
+    margin: 0 20px;
+}
+
+.title-container {
+    /* justify-content: center; */
     display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    width: 281px;
+    position: relative;
+    float: left;
+    max-width: 100%;
+    clear: left;
+    margin-right: 40px;
 }
 
 .story-img {
@@ -21,10 +37,6 @@ body {
     width: 300px;
 }
 
-.story-description {
-    max-width: 50%;
-    margin: 0 20px;
-}
 
 /* .details-table {
 	display: block;
