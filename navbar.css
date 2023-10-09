@@ -1,0 +1,44 @@
+.navbar {
+    background: linear-gradient(to right, #3498db, #e74c3c);
+    padding: 15px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    z-index: 100;
+}
+
+.nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list li {
+    margin: 0 20px;
+}
+
+.nav-list a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffffa1;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+    user-select: none; 
+}
+
+.nav-list a:hover {
+    background: linear-gradient(to right, #e4e73c, #3498db);
+    color: #fff;
+}
+
+.nav-list a:focus {
+    outline: none;
+    background: linear-gradient(to right, #e74c3c, #3498db);
+    color: #fff;
+}
